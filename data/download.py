@@ -1,8 +1,17 @@
 from tqdm import tqdm
 import urllib.request
 import cv2
+import os
 
 url="https://picsum.photos/200/300"
+
+try:
+    os.mkdir("dataset")
+    os.mkdir("dataset/train")
+    os.mkdir("dataset/train/A")
+    os.mkdir("dataset/train/B")
+except:
+    pass
 
 for i in tqdm(range(0,50)):
     urllib.request.urlretrieve(url, "dataset/train/A/"+str(i)+".png")
