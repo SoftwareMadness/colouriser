@@ -13,4 +13,4 @@ If you want to change the dataset size change:
 for i in tqdm(range(0,500)): <--- Change the 500 to the number of images you want in data/download.py
 
 ![This is an image](result.png)
-![This is an image](38.png)
+![This is an image](89.png)
