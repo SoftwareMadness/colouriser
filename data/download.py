@@ -13,7 +13,7 @@ try:
 except:
     pass
 
-for i in tqdm(range(0,50)):
+for i in tqdm(range(0,500)):
     urllib.request.urlretrieve(url, "dataset/train/A/"+str(i)+".png")
     originalImage = cv2.imread("dataset/train/A/"+str(i)+".png")
     grayImage = cv2.cvtColor(originalImage, cv2.COLOR_BGR2GRAY)
