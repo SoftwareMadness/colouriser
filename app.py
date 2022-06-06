@@ -40,8 +40,15 @@ netG_B2A.eval()
 
 img = input("Path to the image that you want to colourise:")
 
+func = input("1.) Gray to color  2.) Color to gray, enter Number:")
+
+net_f = netG_B2A
+
+if func[0] == '2':
+	net_f = netG_A2B
+
 nimg = pre_process(Image.fromarray(cv2.imread(img))).unsqueeze(0)
-calc = netG_B2A(nimg).detach()
+calc = net_f(nimg).detach()
 vutils.save_image(calc, "result.png", normalize=True)
 calc = cv2.imread("result.png")
 cv2.imshow('frame', calc)
