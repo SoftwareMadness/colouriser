@@ -5,7 +5,7 @@ My AI Project to colorise images, it is based on the awesome pytorch-cyclegan pr
 
 State Changes:<br>
 <br>  I changed the train.py file in the pytorch-cyclegan repository to a lightly stripped down version. It is still the same GAN but i can use python fucntions.
-<br>  I created some new scripts with a very primitive cli. I trained the GAN to 43 epochs. It can turn Black/White to Color or in reverse.
+<br>  I created some new scripts with a very primitive cli. I trained the GAN to 43 epochs and 500 images. It can turn Black/White to Color or in reverse.
 
 <br>
 <br>
@@ -17,7 +17,7 @@ If you want to change the dataset size change:
 `for i in tqdm(range(0,500)):` <--- Change the 500 to the number of images you want in data/download.py
 
 <br>
-Here is a image of the result. It is 13 epochs of training.
+Here is a image of the result. It is 13 epochs and 500 images of training.
 <br>
 
 ![Output](result.png)
