@@ -13,7 +13,7 @@ State Changes:<br>
 If you want to change the dataset size change:
 <br>
 <br>
-for i in tqdm(range(0,500)): <--- Change the 500 to the number of images you want in data/download.py
+```for i in tqdm(range(0,500)):``` <--- Change the 500 to the number of images you want in data/download.py
 <br>
 Here is a image of the result. It is 13 epochs of training.
 <br>
