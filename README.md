@@ -1,4 +1,4 @@
-# <span style='color:#B56CC1;'>C</span><span style='color:#67412B;'>o</span><span style='color:#FA64A2;'>l</span><span style='color:#90E85D;'>o</span><span style='color:#976AC1;'>u</span><span style='color:#894D96;'>r</span><span style='color:#3362F8;'>i</span><span style='color:#473C87;'>s</span><span style='color:#2E5C66;'>e</span><span style='color:#590C20;'>r</span>
+# <span style="color:green">Colouriser</span>
 My AI Project to colorise images, it is based on the awesome pytorch-cyclegan project https://github.com/Lornatang/CycleGAN-PyTorch
 <br>
 <br>
