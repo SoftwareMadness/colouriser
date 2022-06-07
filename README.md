@@ -17,4 +17,7 @@ for i in tqdm(range(0,500)): <--- Change the 500 to the number of images you wan
 <br>
 Here is a image of the result. It is 13 epochs of training.
 <br>
-![Output](result.png) <=== ![Input](89.png)
+
+![Output](result.png)
+<=== 
+![Input](89.png)
