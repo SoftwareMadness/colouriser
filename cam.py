@@ -3,6 +3,7 @@ import cv2
 import torchvision.utils as vutils
 import torchvision.transforms as transforms
 import libcygtrn
+import torch
 from libcygtrn import CYCLES
 from PIL import Image
 
