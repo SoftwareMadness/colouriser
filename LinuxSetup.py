@@ -1,6 +1,6 @@
 import os
 
-if input("Install needed packages using APT ? (y/n)").lower = "y":
+if input("Install needed packages using APT ? (y/n)").lower() == "y":
     os.system("sudo apt install python3 python3-pip")
 
 proc = input("What is your processing unit ? (cuda/cpu) :").lower()
