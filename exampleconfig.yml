@@ -4,4 +4,4 @@ i_size: 256
 bs: 1
 ep: 300
 pf: 10
-UseCUDA: yes
+UseCUDA: no
